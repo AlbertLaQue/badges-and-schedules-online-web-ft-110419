@@ -20,12 +20,21 @@ end
 #print out each assignment 
 #need to iterate over array room assignments
 
+# def printer(array)
+# batch_badge_creator.each do |badge| 
+#   puts "#{badge}"
+#   assign_rooms.each do |rooms|
+#     puts "#{rooms}"
+#   end
+# end
+# end
+
 def printer(array)
  batch_badge_creator.each do |badge| 
    puts "#{badge}"
+ end
    assign_rooms.each do |rooms|
      puts "#{rooms}"
-   end
  end
 end
 
