@@ -21,11 +21,8 @@ end
 #need to iterate over array room assignments
 
 def printer(array)
-  assign_rooms.each do |room|
-  puts "#{room}"
-  batch_badge_creator.each do |name|
-    puts "#{name}"
-end 
+ 
+ 
 end
 
 
