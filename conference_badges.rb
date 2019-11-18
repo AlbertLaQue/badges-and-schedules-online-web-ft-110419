@@ -37,7 +37,5 @@ def printer(array)
      puts "#{rooms}"
  end
 end
-printer(array)
-
   
   
