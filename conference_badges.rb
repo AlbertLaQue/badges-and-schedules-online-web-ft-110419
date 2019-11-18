@@ -21,7 +21,9 @@ end
 #need to iterate over array room assignments
 
 def printer(array)
- 
+ batch_badge_creator.each do |badge| 
+   
+   assign_rooms.each do |badge|
  
 end
 
